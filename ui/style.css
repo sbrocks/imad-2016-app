@@ -1,23 +1,19 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
-    text-decoration: underline;
+h2,legend{
+text-transform: capitalize;
 }
-
-.center {
-    text-align: center;
+fieldset{
+background: #ffffcc;
+margin-bottom: 30px;
+border: solid 10px #ffff00;
 }
-
-.text-big {
-    font-size: 300%;
+label{
+display: inline-block;
+float: left;
+clear: left;
+width: 180px;
+text-align: right;
 }
-
-.bold {
-    font-weight: bold;
+input{
+display: inline-block;
+float: left;
 }
-
-.img-medium {
-    height: 200px;
-}
-
