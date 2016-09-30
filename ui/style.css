@@ -8,12 +8,10 @@ border: solid 10px #ffff00;
 }
 label{
 display: inline-block;
-float: left;
 clear: left;
 width: 180px;
 text-align: right;
 }
 input{
 display: inline-block;
-float: left;
 }
