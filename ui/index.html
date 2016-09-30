@@ -1,18 +1,67 @@
 <!doctype html>
 <html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
-        </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am Shaury Baranwal
-        </div>
-        <h4>this is new stuff</h4>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
+<head>
+<title>Dating website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form method="post" enctype="multipart/form-data">
+<h2>please enter your details for our dating website!</h2>
+<fieldset>
+  
+    <legend>Your Face</legend>
+    <div class="face">
+    <label>Your image:</label>
+<input type="file" name="FiletoUpload"><br>
+    <label>Image preview:</label>
+  </div>
+</fieldset>
+<fieldset>
+      <legend>your general details:</legend>
+<div class="gen">
+<label>Name:</label><input type="text" placeholder="Your Full Name"><br>
+<label>Gender:</label>
+<input type="radio">Male<br>
+<input type="radio">Female<br>
+<label>Age: </label><input type="number" min="0" max="99" step="1" value="18"><br>
+<label>Date of birth:</label><input type="date"><br>
+<label>Favourite color: </label><input type="color"><br>
+<label>Which country:</label>
+<select name="country">
+<option value="India">India</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Sri Lanka">Sri Lanka</option>
+<option value="USA">USA</option>
+<option value="England">Canada</option>
+<option value="Iceland">Iceland</option>
+<option value="France">France</option>
+<option value="Russia">Russia</option>
+</select><br>
+</sdiv>
+</fieldset>
+<fieldset>
+<legend>Your indicators</legend>
+<div class="indicators">
+<label>Height</label><input type="range" min="short" max="tall" step="1"><br>
+<label>Salary</label><input type="range" min="poor" max="rich" step="1000"><br>
+</div>
+</fieldset>
+<fieldset>
+<legend>Your contact information</legend>
+<div class="contact">
+<label>Email: </label><input type=text"><br>
+<label>Mobile:</label><input type="text"><br>
+<label>Address:</label><textarea="rows="8" cols="20" name="address">
+</textarea>
+<br>
+<label>Method to contact you: </label> 
+<input type="radio">Email
+<input type="radio">Whatsapp
+<input type="radio">In-app chat
+</div>
+</fieldset>
+<input type="submit" value="Submit!" target="http://facebook.com">
+</form>
+</body>
+</html>
 </html>
